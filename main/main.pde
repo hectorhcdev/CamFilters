@@ -162,7 +162,7 @@ void FaceDetect(Mat grey)
 
 void keyPressed(){
   if(key=='1'){
-    println("eooo");
+    //println("eooo");
     for(int i =0; i< filter.length;i++){
       filter[i]=false;
     }
